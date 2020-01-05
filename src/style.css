@@ -54,7 +54,7 @@ ul {
     font-size: 25px;
 }
 
-#title {
+header {
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
@@ -62,8 +62,7 @@ ul {
     font-size: 35px;
     font-weight: 600;
 	/* margin: 2vh 0; */
-	order: 1;
-	transform: translateY(-500%);
+	transform: translateY(-290%);
 	color: white;
 }
 
@@ -74,10 +73,15 @@ nav {
 	background: #106d3acc;
 }
 
+section {
+	height: 100vh;
+}
+
 .nav-item {
-	border: 1px solid black;
+	border: 1px solid rgba(0, 0, 0, 0.267);
 	padding: 4vh 7vw;
 	transition: 0.25s;
+	border-radius: 7px;
 }
 
 .nav-item:hover{
@@ -92,6 +96,10 @@ nav {
 	margin: 0;
 }
 
+#title {
+	text-shadow: 2px 2px 10px black;
+}
+
 #header-background {
 	display: flex;
 	justify-content: center;
@@ -99,11 +107,37 @@ nav {
 }
 
 #header-links {
-	
+	margin-top: 40px;
+	font-size: 50px;
+}
+
+.fab {
+	transition: 0.15s text-shadow;
+	border-radius: 50%;
+}
+
+.fab:hover {
+	text-shadow: 2px 2px 5px black;
 }
 
 #landing {
 	height: 100vh;
 	background-image: url('../assets/mountain-background.jpg');
 	background-size: cover;
+}
+
+#fixed-content {
+	position: fixed;
+}
+
+#about {
+	background: linear-gradient( to bottom, #a3bfe4, #4c4161)
+}
+
+#projects {
+	background: linear-gradient( to bottom, #4c4161, #6e3867)
+}
+
+#contact {
+	background: linear-gradient( to bottom, #6e3867, #99425c)
 }
