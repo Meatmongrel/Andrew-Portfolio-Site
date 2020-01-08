@@ -134,6 +134,12 @@ section {
 	background: linear-gradient( to bottom, #a3bfe4, #4c4161)
 }
 
+#personal-photo {
+	height: 55vh;
+	clip-path: polygon(50% 0%, 88% 48%, 50% 100%, 12% 50%);
+	margin-top: 20vh;
+}
+
 #projects {
 	background: linear-gradient( to bottom, #4c4161, #6e3867)
 }
