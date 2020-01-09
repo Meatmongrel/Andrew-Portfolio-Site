@@ -109,11 +109,15 @@ section {
 #header-links {
 	margin-top: 40px;
 	font-size: 50px;
+	color: white;
 }
+
+
 
 .fab {
 	transition: 0.15s text-shadow;
 	border-radius: 50%;
+	color: white;
 }
 
 .fab:hover {
@@ -138,6 +142,12 @@ section {
 	height: 55vh;
 	clip-path: polygon(50% 0%, 88% 48%, 50% 100%, 12% 50%);
 	margin-top: 20vh;
+	float: right;
+}
+
+#about-blurb {
+	margin-right: 5vw;
+	font-size: 25px;
 }
 
 #projects {
