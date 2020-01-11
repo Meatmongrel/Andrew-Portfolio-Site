@@ -77,6 +77,10 @@ section {
 	height: 100vh;
 }
 
+a {
+	color: white;
+}
+
 .nav-item {
 	border: 1px solid rgba(0, 0, 0, 0.267);
 	padding: 4vh 7vw;
@@ -94,6 +98,8 @@ section {
 	height: 400px;
 	width: 400px;
 	margin: 0;
+	border-radius: 50%;
+	box-shadow: 2px 2px 100px black;
 }
 
 #title {
@@ -112,8 +118,6 @@ section {
 	color: white;
 }
 
-
-
 .fab {
 	transition: 0.15s text-shadow;
 	border-radius: 50%;
@@ -126,6 +130,7 @@ section {
 
 #landing {
 	height: 100vh;
+	background-color: gray;
 	background-image: url('../assets/mountain-background.jpg');
 	background-size: cover;
 }
@@ -138,16 +143,32 @@ section {
 	background: linear-gradient( to bottom, #a3bfe4, #4c4161)
 }
 
+#about-title {
+	display: flex;
+	justify-content: center;
+	padding-top: 5vh;
+	font-size: 45px;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
 #personal-photo {
-	height: 55vh;
+	height: 65vh;
 	clip-path: polygon(50% 0%, 88% 48%, 50% 100%, 12% 50%);
-	margin-top: 20vh;
+	margin-top: 13vh;
 	float: right;
 }
 
 #about-blurb {
-	margin-right: 5vw;
+	margin-top: 10vh;
+	margin-left: 5vw;
+	width: 40vw;
+	padding: 4vw;
 	font-size: 25px;
+	border: 3px solid rgb(119, 119, 119);
+	border-radius: 20% 0 20% 0;
+	background: rgba(128, 128, 128, 0.13)
+	
 }
 
 #projects {

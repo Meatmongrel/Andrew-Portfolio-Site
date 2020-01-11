@@ -1,3 +1,4 @@
+const html = document.querySelector('html')
 const navItem = document.querySelectorAll('.nav-item')
 
 const section = {
@@ -6,9 +7,6 @@ const section = {
     "contact": document.querySelector('#contact')
 }
 
-window.addEventListener("scroll", event => {
-    console.log(window.scrollY)
-})
 
 navItem.forEach(tab => {
     tab.addEventListener('click', event => {
