@@ -70,7 +70,8 @@ nav {
 	border: 1px solid black;
 	padding: 2vh;
 	margin: -10vh 10vw;
-	background: #106d3acc;
+	/* background: #106d3acc; */
+	background: #9b2f34cc;
 }
 
 section {
@@ -86,6 +87,7 @@ a {
 	padding: 4vh 7vw;
 	transition: 0.25s;
 	border-radius: 7px;
+	cursor: pointer;
 }
 
 .nav-item:hover{
@@ -102,7 +104,7 @@ a {
 	box-shadow: 2px 2px 100px black;
 }
 
-#title {
+#name {
 	text-shadow: 2px 2px 10px black;
 }
 
@@ -143,7 +145,7 @@ a {
 	background: linear-gradient( to bottom, #a3bfe4, #4c4161)
 }
 
-#about-title {
+#section-title {
 	display: flex;
 	justify-content: center;
 	padding-top: 5vh;
@@ -163,8 +165,9 @@ a {
 	margin-top: 10vh;
 	margin-left: 5vw;
 	width: 40vw;
+	height: 45vh;
 	padding: 4vw;
-	font-size: 25px;
+	font-size: 2.5vh;
 	border: 3px solid rgb(119, 119, 119);
 	border-radius: 20% 0 20% 0;
 	background: rgba(128, 128, 128, 0.13)
@@ -172,7 +175,36 @@ a {
 }
 
 #projects {
-	background: linear-gradient( to bottom, #4c4161, #6e3867)
+	background: linear-gradient( to bottom, #4c4161, #6e3867);
+}
+
+#project-section {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.project-card {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	margin-top: 30vh;
+	text-align: center;
+	border: 1px solid black;
+	width: 25vw;
+	height: 10vh;
+	padding: 1.5vw;
+}
+
+.project-title {
+	margin-bottom: 1vh;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.project-description {
+	font-size: 20px;
 }
 
 #contact {
