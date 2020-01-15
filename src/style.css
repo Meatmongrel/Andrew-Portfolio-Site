@@ -133,7 +133,7 @@ a {
 #landing {
 	height: 100vh;
 	background-color: gray;
-	background-image: url('../assets/mountain-background.jpg');
+	background-image: url('./assets/mountain-background.jpg');
 	background-size: cover;
 }
 
