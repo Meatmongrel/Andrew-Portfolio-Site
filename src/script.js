@@ -1,4 +1,3 @@
-const html = document.querySelector('html')
 const navItem = document.querySelectorAll('.nav-item')
 
 const section = {

@@ -71,7 +71,7 @@ nav {
 	padding: 2vh;
 	margin: -10vh 10vw;
 	/* background: #106d3acc; */
-	background: #9b2f34cc;
+	background: #0e54bd9d;
 }
 
 section {
@@ -80,6 +80,11 @@ section {
 
 a {
 	color: white;
+	transition: 0.15s color;
+}
+
+a:hover {
+	color: rgb(165, 165, 165);
 }
 
 .nav-item {
@@ -88,6 +93,7 @@ a {
 	transition: 0.25s;
 	border-radius: 7px;
 	cursor: pointer;
+	font-weight: 600;
 }
 
 .nav-item:hover{
@@ -191,9 +197,10 @@ a {
 	align-items: center;
 	margin-top: 30vh;
 	text-align: center;
-	border: 1px solid black;
+	border: 2px dashed black;
+	border-radius: 5%;
 	width: 25vw;
-	height: 10vh;
+	/* height: 10vh; */
 	padding: 1.5vw;
 }
 
@@ -203,19 +210,40 @@ a {
 	/* text-decoration: underline; */
 }
 
-h2.project-title {
-	text-decoration: none;
+.project-image {
+	height: 210px;
+	margin: 2vh 0;
+	border: 1px solid black;
 }
 
 .project-description {
 	font-size: 20px;
-	border: 3px solid black;
+	border: 2px solid black;
 	border-top: 1px solid black;
 	border-right: 1px solid black;
-	background-color: rgb(68, 36, 128);
-	box-shadow: -4px 4px 0 2px white;
+	background-color: rgb(106, 58, 196);
+	box-shadow: -6px 6px 0 2px white;
 }
 
 #contact {
-	background: linear-gradient( to bottom, #6e3867, #99425c)
+	background: linear-gradient( to bottom, #6e3867, #99425c);
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+#contact-info {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	border: 1px solid black;
+	width: 350px;
+	margin: 400px 0;
+	padding: 2vh 1vw;
+	font-size: 20px;
+}
+
+.contact-icon {
+	padding: 10px 0;
+	font-size: 30px;
 }
