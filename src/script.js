@@ -11,6 +11,5 @@ navItem.forEach(tab => {
     tab.addEventListener('click', event => {
         const sectName = event.target.textContent.toLowerCase()
         section[sectName].scrollIntoView({behavior: "smooth"})
-        console.log(window.scrollY)
     })
 })
