@@ -149,7 +149,7 @@ a:hover {
 	background: linear-gradient( to bottom, #a3bfe4, #4c4161)
 }
 
-#section-title {
+.section-title {
 	display: flex;
 	justify-content: center;
 	padding-top: 5vh;
@@ -158,19 +158,25 @@ a:hover {
 	text-decoration: underline;
 }
 
+#about-content {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
 #personal-photo {
 	height: 65vh;
 	clip-path: polygon(50% 0%, 88% 48%, 50% 100%, 12% 50%);
 	margin-top: 13vh;
-	float: right;
+	order: 2;
+	/* float: right; */
 }
 
 #about-blurb {
 	margin-top: 10vh;
 	margin-left: 5vw;
 	width: 40vw;
-	height: 45vh;
-	padding: 4vw;
+	height: 450px;
+	padding: 7vh 4vw;
 	font-size: 23px;
 	border: 3px solid rgb(119, 119, 119);
 	border-radius: 20% 0 20% 0;
@@ -198,7 +204,6 @@ a:hover {
 	border: 2px dashed black;
 	border-radius: 5%;
 	width: 25vw;
-	/* height: 10vh; */
 	padding: 1.5vw;
 	background-color: rgba(124, 124, 124, 0.308);
 }
@@ -234,7 +239,7 @@ a:hover {
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
-	border: 1px dashed black;
+	border: 2px dashed black;
 	border-radius: 3%;
 	width: 350px;
 	margin: 300px 0;
@@ -255,6 +260,7 @@ a:hover {
 
 	#about-blurb {
 		font-size: 18px;
+		height: 400px;
 	}
 
 	.project-image {
@@ -268,7 +274,11 @@ a:hover {
 
 @media only screen and (max-width: 1280px){
 	#personal-photo {
-		height: 50vh;
+		height: 425px;
+	}
+
+	#about-blurb {
+		height: 425px;
 	}
 
 	.project-image {
@@ -282,20 +292,68 @@ a:hover {
 		flex-flow: column nowrap;
 		text-align: center;
 	}
+
+	nav {
+		margin-top: -100px
+	}
+
 	.nav-item {
 		padding: 3vh 7vw;
 		margin: 1vh 0;
 	}
 
+	.section-title {
+		padding-top: 2.5vh;
+	}
+
+	#about-content {
+		flex-flow: column nowrap;
+		align-items: center;
+	}
+
 	#about-blurb {
-		font-size: 14.5px;
+		font-size: 0.8em;
+		width: 75vw;
+		height: 25vh;
+		padding-top: 30px;
+		margin-top: 5vh;
 	}
 
 	#personal-photo {
-		height: 40vh;
+		height: 40vw;
+		/* width: 600px; */
+		margin-top: 2.5vh;
+		order: 0;
+	}
+
+	#project-section {
+		flex-flow: column nowrap;
+	}
+
+	.project-card {
+		margin: 1vh 15vw;
+		width: 70vw;
+		padding: 2.5vw;
+		padding-top: 10px;
 	}
 
 	.project-image {
-		height: 115px;
+		height: 95px;
+		margin: 1vh 0;
+	}
+
+	.project-description {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	nav {
+		margin-top: -200px
+	}
+
+	#about-blurb {
+		height: 37vh;
+		font-size: 3vw;
 	}
 }
