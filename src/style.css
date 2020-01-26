@@ -352,8 +352,29 @@ a:hover {
 		margin-top: -200px
 	}
 
+	.section-title {
+		font-size: 9vw;
+	}
+
 	#about-blurb {
 		height: 37vh;
 		font-size: 3vw;
+	}
+
+	.project-title {
+		font-size: 4.5vw;
+		padding: 0;
+	}
+
+	.project-image {
+		height: 25vw;
+	}
+
+	.project-description {
+		font-size: 3.25vw;
+	}
+
+	#contact-info {
+		width: 80vw;
 	}
 }
