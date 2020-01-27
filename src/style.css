@@ -100,11 +100,6 @@ a:hover {
 	color: white;
 }
 
-.nav-item:active, .nav-item:focus {
-	box-shadow: none;
-	color: black;
-}
-
 #circle {
 	height: 400px;
 	width: 400px;
@@ -355,6 +350,11 @@ a:hover {
 @media only screen and (max-width: 600px){
 	nav {
 		margin-top: -200px
+	}
+
+	.nav-item:hover {
+		box-shadow: none;
+		color: black;
 	}
 
 	.section-title {
