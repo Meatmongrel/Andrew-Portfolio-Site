@@ -95,9 +95,14 @@ a:hover {
 	font-weight: 600;
 }
 
-.nav-item:hover:not(:active){
+.nav-item:hover{
 	box-shadow: 6px 6px 2px white;
 	color: white;
+}
+
+.nav-item:active, .nav-item:focus {
+	box-shadow: none;
+	color: black;
 }
 
 #circle {
