@@ -86,6 +86,14 @@ a:hover {
 	color: rgb(165, 165, 165);
 }
 
+#about-blurb > p > a {
+	color: rgb(73, 73, 73);
+}
+
+#about-blurb > p > a:hover {
+	color: rgb(41, 41, 41);
+}
+
 .nav-item {
 	border: 1px solid rgba(0, 0, 0, 0.267);
 	padding: 4vh 7vw;
@@ -178,9 +186,10 @@ a:hover {
 	height: 450px;
 	padding: 7vh 4vw;
 	font-size: 23px;
-	border: 3px solid rgb(119, 119, 119);
+	color: white;
+	/* border: 3px solid rgb(119, 119, 119);
 	border-radius: 20% 0 20% 0;
-	background: rgba(128, 128, 128, 0.13)
+	background: rgba(128, 128, 128, 0.13) */
 	
 }
 
@@ -199,7 +208,7 @@ a:hover {
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
-	margin-top: 30vh;
+	margin-top: 20vh;
 	text-align: center;
 	border: 2px dashed black;
 	border-radius: 5%;
@@ -211,6 +220,7 @@ a:hover {
 .project-title {
 	margin-bottom: 1vh;
 	font-size: 30px;
+	color: white;
 }
 
 .project-image {
@@ -226,6 +236,7 @@ a:hover {
 	border-right: 1px solid black;
 	background-color: rgb(106, 58, 196);
 	box-shadow: -6px 6px 0 2px white;
+	color: white;
 }
 
 #contact {
@@ -242,7 +253,7 @@ a:hover {
 	border: 2px dashed black;
 	border-radius: 3%;
 	width: 350px;
-	margin: 300px 0;
+	margin: 200px 0;
 	padding: 4vh 1.5vw;
 	font-size: 20px;
 	background-color: rgba(124, 124, 124, 0.308);
@@ -312,7 +323,7 @@ a:hover {
 	}
 
 	#about-blurb {
-		font-size: 0.8em;
+		font-size: 1em;
 		width: 75vw;
 		height: 25vh;
 		padding-top: 30px;
