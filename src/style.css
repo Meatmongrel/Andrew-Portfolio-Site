@@ -405,9 +405,17 @@ a:hover {
 		height: 80vw;
 	}
 	#about-blurb{
-		font-size: 4.3vmin;
+		font-size: 3.95vmin;
+	}
+	.project-title{
+		font-size: 8vmin;
 	}
 	.project-description{
-		font-size: 4vmin;
+		font-size: 4.2vmin;
+		box-shadow: -4px 4px 0 1px white;
+	}
+	.project-card{
+		height: 65vmin;
+		width: 78vmin;
 	}
 }
