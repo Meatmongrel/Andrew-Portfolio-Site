@@ -185,7 +185,7 @@ a:hover {
 	width: 40vw;
 	height: 450px;
 	padding: 7vh 4vw;
-	font-size: 23px;
+	font-size: 2.5vmin;
 	color: white;
 	/* border: 3px solid rgb(119, 119, 119);
 	border-radius: 20% 0 20% 0;
@@ -269,7 +269,7 @@ a:hover {
 	}
 
 	#about-blurb {
-		font-size: 18px;
+		font-size: 1.9vmin;
 		height: 400px;
 	}
 
@@ -322,7 +322,7 @@ a:hover {
 	}
 
 	#about-blurb {
-		font-size: 1em;
+		font-size: 1.7vmin;
 		width: 75vw;
 		height: 25vh;
 		padding-top: 30px;
@@ -330,7 +330,7 @@ a:hover {
 	}
 
 	#personal-photo {
-		height: 40vw;
+		height: 50vw;
 		/* width: 600px; */
 		margin-top: 2.5vh;
 		order: 0;
@@ -373,7 +373,7 @@ a:hover {
 
 	#about-blurb {
 		height: 37vh;
-		font-size: 3vw;
+		font-size: 2.4vmin;
 	}
 
 	.project-title {
@@ -391,5 +391,23 @@ a:hover {
 
 	#contact-info {
 		width: 80vw;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	#about-blurb{
+		font-size: 3.5vmin;
+	}
+}
+
+@media only screen and (max-width: 300px){
+	#personal-photo{
+		height: 80vw;
+	}
+	#about-blurb{
+		font-size: 4.3vmin;
+	}
+	.project-description{
+		font-size: 4vmin;
 	}
 }
