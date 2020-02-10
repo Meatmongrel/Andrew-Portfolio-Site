@@ -298,7 +298,7 @@ a:hover {
 	}
 
 	.project-image {
-		height: 150px;
+		height: 17vmin;
 	}
 }
 
@@ -320,6 +320,7 @@ a:hover {
 
 	.section-title {
 		padding-top: 2.5vh;
+		font-size: 5.3vmin;
 	}
 
 	#about-content {
@@ -353,13 +354,17 @@ a:hover {
 		padding-top: 10px;
 	}
 
+	.project-title{
+		font-size: 3vmin;
+	}
+
 	.project-image {
 		height: 95px;
 		margin: 1vh 0;
 	}
 
 	.project-description {
-		font-size: 17px;
+		font-size: 2vmin;
 	}
 }
 
@@ -374,7 +379,7 @@ a:hover {
 	}
 
 	.section-title {
-		font-size: 9vw;
+		font-size: 6vmin;
 	}
 
 	#about-blurb {
@@ -383,16 +388,16 @@ a:hover {
 	}
 
 	.project-title {
-		font-size: 4.5vw;
+		font-size: 4vmin;
 		padding: 0;
 	}
 
 	.project-image {
-		height: 25vw;
+		height: 17vmin;
 	}
 
 	.project-description {
-		font-size: 3.25vw;
+		font-size: 2.7vmin;
 	}
 
 	#contact-info {
