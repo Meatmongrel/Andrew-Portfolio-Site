@@ -265,17 +265,23 @@ a:hover {
 
 @media only screen and (max-width: 1700px){
 	.project-image{
-		height: 25vmin;
+		height: 20vmin;
 	}
 }
+
+/* @media only screen {
+	.project-image{
+		height: 
+	}
+} */
 
 @media only screen and (max-width: 1600px){
-	.project-image{
-		height: 23vmin;
+	#about-blurb{
+		font-size: 2vmin;
 	}
 }
 
-@media only screen and (max-width: 1366px){
+@media only screen and (max-width: 1440px){
 	#personal-photo {
 		height: 60vh;
 	}
@@ -286,7 +292,7 @@ a:hover {
 	}
 
 	.project-image {
-		height: 160px;
+		height: 18vmin;
 	}
 
 	#contact-info {
@@ -304,11 +310,11 @@ a:hover {
 	}
 
 	.project-image {
-		height: 17vmin;
+		height: 16vmin;
 	}
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1150px){
 	ul {
 		display: flex;
 		flex-flow: column nowrap;
