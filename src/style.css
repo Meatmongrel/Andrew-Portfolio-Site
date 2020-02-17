@@ -87,7 +87,7 @@ a:hover {
 }
 
 #about-blurb > p > a {
-	color: rgb(73, 73, 73);
+	color: rgb(168, 165, 165);
 }
 
 #about-blurb > p > a:hover {
@@ -269,12 +269,6 @@ a:hover {
 	}
 }
 
-/* @media only screen {
-	.project-image{
-		height: 
-	}
-} */
-
 @media only screen and (max-width: 1600px){
 	#about-blurb{
 		font-size: 2vmin;
@@ -307,6 +301,7 @@ a:hover {
 
 	#about-blurb {
 		height: 425px;
+		font-size: 2.4vmin;
 	}
 
 	.project-image {
@@ -341,7 +336,7 @@ a:hover {
 	}
 
 	#about-blurb {
-		font-size: 1.7vmin;
+		font-size: 2.2vmin;
 		width: 75vw;
 		height: 25vh;
 		padding-top: 30px;
@@ -396,7 +391,7 @@ a:hover {
 
 	#about-blurb {
 		height: 37vh;
-		font-size: 2.7vmin;
+		font-size: 2.4vmin;
 	}
 
 	.project-title {
@@ -418,31 +413,67 @@ a:hover {
 }
 
 @media only screen and (max-width: 400px){
+	body {
+		overflow-x: hidden;
+	}
+
+	.section-title{
+		font-size: 7vmin;
+	}
+
 	#personal-photo{
 		height: 60vw;
 	}
+
 	#about-blurb{
+		font-size: 3.1vmin;
+	
+		margin-top: 2vmin;
+	}
+	.project-title{
+		font-size: 5.5vmin;
+	}
+
+	.project-description{
 		font-size: 3.5vmin;
+	}
+
+	.project-image{
+		height: 20vmin;
+	}
+
+	#contact-info {
+		font-size: 5vmin;
+	}
+
+	.contact-icon{
+		font-size: 10vmin;
 	}
 }
 
 @media only screen and (max-width: 300px){
-
+	.section-title {
+		font-size: 9vmin;
+	}
 	#about-blurb{
-		font-size: 3.95vmin;
+		font-size: 4vmin;
 	}
+
 	.project-title{
-		font-size: 8vmin;
+		font-size: 6vmin;
 	}
+
 	.project-image{
-		height: 40vmin;
+		height: 30vmin;
 	}
+
 	.project-description{
-		font-size: 4.2vmin;
+		font-size: 4vmin;
 		box-shadow: -4px 4px 0 1px white;
 	}
+
 	.project-card{
-		height: 65vmin;
+		/* height: 57vmin; */
 		width: 78vmin;
 	}
 }
